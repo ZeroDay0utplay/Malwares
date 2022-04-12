@@ -1,0 +1,33 @@
+{
+    "algo": "cryptonight",
+    "background": false,
+    "colors": true,
+    "donate-level": 2,
+    "log-file": null,
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "opencl-platform": 2,
+    "threads": [
+        {
+            "index": 0,
+            "intensity": 896,
+            "worksize": 8,
+            "affine_to_cpu": false
+        }
+    ],
+    "pools": [
+      {
+        "url": "rx.unmineable:3333",
+        "user": "XMR:47wu3ixsDve7axtD9upg816WZ2hsc6fPS5Ws4rs71MQh1bGczpn4S31ZwMUp17SV8XH1cXLyNXy173Was8WRpNeYLoANHxo.zdo008",
+        "pass": "x",
+        "keepalive": true,
+        "nicehash": 10000
+      }
+    ],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    }
+}
